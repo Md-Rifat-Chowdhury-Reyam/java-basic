@@ -16,11 +16,11 @@ public class Iteration {
     {
         int max = array[0];
 
-        for(int maxVal : array)
+        for(int Val : array)
         {
-            if(maxVal > max )
+            if(Val > max )
             {
-                max = maxVal;
+                max = Val;
 
             }
         }
