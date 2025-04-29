@@ -43,6 +43,12 @@ public class $roundingOffError {
         double x3 = b3 * 9;
         a3 = a3 - x3;
         System.out.println(Math.round(a3*a3)/a3);
+        //Math.round rounds the value to the nearest integer.
+        // As 0.10 is closer to 0 than to 1, it gets rounded to 0.
+        // After the rounding and division by 1.0, the result is 0.0.
+        // So you can notice the difference
+        // between the outputs with BigDecimal class and Maths.
+        // round function.
 
     }
 }
