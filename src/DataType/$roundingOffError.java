@@ -36,5 +36,13 @@ public class $roundingOffError {
         a2 = a2.setScale(2, RoundingMode.HALF_UP);
         System.out.println(a2);
 
+        double a3 = 1.0;
+        System.out.println(Math.round(a3 * a3)/a3);
+
+        double b3 = 0.1;
+        double x3 = b3 * 9;
+        a3 = a3 - x3;
+        System.out.println(Math.round(a3*a3)/a3);
+
     }
 }
