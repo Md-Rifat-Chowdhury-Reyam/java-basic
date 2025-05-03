@@ -1,4 +1,4 @@
-package Variables;
+package Variables.Block;
 
 public class StaticBlock {
 
