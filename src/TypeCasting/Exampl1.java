@@ -15,6 +15,7 @@ public class Exampl1 {
             System.out.println();
 
             System.out.println((Child)pAnothor);
+
             System.out.println(((Child)pAnothor).val);
         }
         else
