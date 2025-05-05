@@ -3,20 +3,20 @@ package TypeCasting;
 public class Exampl1 {
     public static void main(String[] args) {
 
-        Parent p = new Child(); //a parent class data member is accessed
+        Parent1 p = new Child1(); //a parent class data member is accessed
                                 // when a reference of parent type refers to a child object.
 
-        Parent pAnothor = p;
+        Parent1 pAnothor = p;
 
-        if(pAnothor instanceof Child)
+        if(pAnothor instanceof Child1)
         {
-            Child c = new Child();
+            Child1 c = new Child1();
             c.display();
             System.out.println();
 
-            System.out.println((Child)pAnothor);
+            System.out.println((Child1)pAnothor);
 
-            System.out.println(((Child)pAnothor).val);
+            System.out.println(((Child1)pAnothor).val);
         }
         else
         {
@@ -25,7 +25,7 @@ public class Exampl1 {
     }
 }
 
-class Parent
+class Parent1
 {
 //    int val = 2000;
     void display()
@@ -35,7 +35,7 @@ class Parent
 
 
 }
-class Child extends Parent
+class Child1 extends Parent1
 {
 
     int val = 10;

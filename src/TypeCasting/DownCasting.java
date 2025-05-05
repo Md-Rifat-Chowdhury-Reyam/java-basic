@@ -24,7 +24,7 @@ class car extends  vehicle
     {
        // method of down casting 1. upcasting in main method()  then 2. down casting in child class
         // Upcasting
-        //Parent p = new Child();
+        //Parent1 p = new Child();
 
         // Downcasting Explicitly
         //Child c = (Child)p;
