@@ -3,8 +3,9 @@ package ControlFlow.ConditionalStatement.SwitchCase;
 public class Example1 {
 
     public static void main(String[] args) {
-        int i = 4;
+        Integer i = 4;
 
+//          Using Variable in Switch Argument
        switch (i + 1) // we can use like switch ( i + 1 ) that means we can do operation with variable;
        {
            case 1:
@@ -23,8 +24,11 @@ public class Example1 {
                System.out.println(" I am four");
                break;
 
-// Error: java: constant expression required  so in the case we can use only value operation not variable operation
-//           case i + 1:
+
+//              Case Label Cannot Be Variable
+//              Error: java: constant expression required  so in the case we can use only value operation not variable operation
+//
+//           case i + 1: or case x + y
 //               System.out.println("I am five but compiler show error");
 //               break;
 
