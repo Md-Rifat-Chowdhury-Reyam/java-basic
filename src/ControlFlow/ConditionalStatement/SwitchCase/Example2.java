@@ -15,19 +15,19 @@ public class Example2 {
         {
             case 1:
                 day = "Saturday";
-                break;
+                //break;
 
             case 2:
                 day = "Sunday";
-                break;
+                //break;
 
             case 3:
                 day = "Monday";
-                break;
+                //break;
 
             default:
                 day = "Friday";
-                break;
+              //  break;   //if there no break key then code execute the final or default
 
 
         }
