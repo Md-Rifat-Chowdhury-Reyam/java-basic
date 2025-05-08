@@ -25,7 +25,7 @@ public class NestedSwitchCase {
         {
             case "CSE":
 
-                switch (semester)
+                switch (semester) //nested switch case
                 {
                     case 1:
                         System.out.println("Your department :" + Department + " and semester " + semester);
