@@ -1,4 +1,4 @@
-package ForEach;
+package ControlFlow.ForEach;
 
 public class findingMaxNumber {
     public static int maxNum()
