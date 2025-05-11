@@ -8,7 +8,7 @@ public class BreakExample {
         {
             if(i == 6)
             {
-                System.out.print(i + " ");
+//                System.out.print(i + " ");
                 break;  //will print 1 to 5 then 6 so output : 1 2 3 4 5 6
             }
             System.out.print(i + " ");
@@ -75,6 +75,12 @@ public class BreakExample {
                 System.out.println("after label two");
             }
             System.out.println("after label one");
-        }
+
+//            for (int i = 0; ; i++) {
+//                System.out.println(i);
+//            }
+            }
     }
+
+
 }
