@@ -29,3 +29,9 @@ class B extends A
         System.out.println("class B implemented from abstract class A's abstract method");
     }
 }
+
+//Although abstract classes cannot be used to instantiate objects,
+// they can be used to create object references,
+// because Java’s approach to run-time polymorphism is implemented through the use of super-class references.
+// Thus, it must be possible to create a reference to an abstract class
+// so that it can be used to point to a subclass object.
