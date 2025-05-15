@@ -17,6 +17,12 @@ public class Concatanation {
         System.out.println(str);
 
 
+        //Alternative
+        String s1 = "Md ";
+        String s2 = "Rifat ";
+        System.out.println(s1.concat(s2));
+
+
         //Handling NullPointerException in String concat()
 
         try {
